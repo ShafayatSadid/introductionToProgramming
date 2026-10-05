@@ -3,8 +3,11 @@
 int main()
 {
     int a;
+    float b;
+    char c;
 
-    scanf("%d", &a);
-    printf("%d",a);
+    scanf("%d %f %c", &a, &b, &c);
+
+    printf("%d %f %c", a, b, c);
     return 0;
 }
